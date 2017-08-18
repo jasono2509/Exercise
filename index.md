@@ -11,6 +11,51 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
+<html>
+<!-- 
+  HTML 5 test page
+  Tests browsers for their support of the following HTML 5 features
+  video webm  format
+  video mp4 format
+  video ogg format
+  audio mp3 format
+  audio wav format
+  audio ogg format
+  Local storage
+  session storage
+  all supportint]d files need to be in the same folder as this file
+  open this file from the HTML 5 folder using the chosen browser
+  version 3.0  3/102011
+  Author John Chapman 
+  
+-->
+<head>
+  <title>HTML 5 test page</title>
+  <link rel="stylesheet" type="text/css" href="test.css" />
+</head>
+<body class="bluey">
+  <h1 style="font-size:48pt; text-align:center;" >HTML 5 Test page</h1>
+  
+<div class="movietext">
+   	<h1> Movie </h1>
+</div>  
+<div class= "movie">
+	 <video width="320" height="240" controls="controls">
+	 <source src="bunny.mp4" type="video/mp4" />
+	 <source src="bunny.ogg" type="video/ogg" />
+	 <source src="bunny.webm" type="video/webm" />
+	 Your browser does not support the video tag.
+	 </video> 
+</div>
+<div class="mp3text">
+	 <h1>MP3 sample </h1>
+</div> 
+<div class="mp3">  
+  <audio src="ACDC.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio>
+</div>
+<div class="oggtext">
 # Header 1
 ## Header 2
 ### Header 3
